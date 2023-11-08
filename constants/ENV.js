@@ -1,0 +1,7 @@
+// TESTING IDs
+export const BANNER_TEST_ID = 'ca-app-pub-3940256099942544/6300978111'
+export const INTERSTITIAL_TEST_ID = 'ca-app-pub-3940256099942544/1033173712'
+
+// LIVE IDs
+export const BANNER_AD_ID = ''
+export const INTERSTITIAL_AD_ID = ''

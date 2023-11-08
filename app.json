@@ -1,0 +1,8 @@
+{
+  "name": "MiniGames",
+  "displayName": "MiniGames",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-9569521326940318~3678921403",
+    "ios_app_id": "ca-app-pub-9569521326940318~2611637340"
+  }
+}
