@@ -29,7 +29,7 @@ const HighScorePageScreen = ({ navigation, route }) => {
         Accept: 'application/json',
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ game_id: gameObj.toString(), game_round : route?.params?.game_round - 1  }),
+      body: JSON.stringify({ game_id: gameObj.toString(), game_round : route?.params?.game_round }),
     })
       .then(response => response.json())
       .then(responseData => {

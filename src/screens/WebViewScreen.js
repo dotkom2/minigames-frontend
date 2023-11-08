@@ -65,7 +65,7 @@ const WebViewScreen = ({ navigation, route }) => {
   }, []);
 
 
-  console.log('time === ',data?.[0]?.game_round)
+  // console.log('time === ',data?.[0]?.game_round)
 
 
   // Count down timer
@@ -321,7 +321,7 @@ const WebViewScreen = ({ navigation, route }) => {
             </Text>
           </View>
 
-          {/* <TouchableOpacity
+          {Platform.OS === "android" && <TouchableOpacity
             activeOpacity={0.8}
             onPress={() =>
               handleLinkPress(
@@ -341,7 +341,7 @@ const WebViewScreen = ({ navigation, route }) => {
                 height: perfectPixel(358),
               }}
             />
-          </TouchableOpacity> */}
+          </TouchableOpacity> }
         </View>
       ) : null}
 
